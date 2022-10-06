@@ -1,0 +1,22 @@
+.msg-pattern {
+  position: relative;
+  right: 0;
+  left: 0;
+  padding: 5px;
+  font-weight: 600;
+  top: -15px;
+  display: none;
+  font-size: 10px;
+}
+
+.msg-pattern.pattern-ar.show,
+.msg-pattern.pattern-eng.show {
+  display: block;
+}
+
+.pattern-invalid {
+  color: red;
+}
+.pattern-valid {
+  color: green;
+}
